@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)file:///D:/hector-sena/java/calculadora/calculadora.html?x=36&y=33&valores=%2F -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="./calculadora animada_files/calculadoras.css">
+	<title>calculadora animada</title>
+	<script>
+	var num= '';
+	var resultado='';
+	function retornar(operacion){
+		num=num+operacion;
+		document.getElementById('valores').value=num;
+		alert(operacion);
+	}
+	function termino(operacion){
+		num=num+operacion;
+		document.getElementById('valores').value=num;
+		alert(num);
+	}
+	function resultados(operacion){
+		var resultado=eval(num);
+		document.getElementById('valores').value=resultado;
+	}
+	function limpiar(){
+		num='';
+		document.getElementById('valores').value=num;
+	}
+	</script>
+</head>
+<body>
+	<form name="fo">
+	<div>
+		<p id="tema" type="button">CALCULADORA</p>
+	</div>
+	<center>
+	<div id="panel">
+		<div id="contenedor">
+			<p>Resultado</p><input id="valores" type="text" name="valores" size="200">
+		</div>
+		<div id="n1">
+			<img class="a"   src="./calculadora animada_files/1.png"  onclick="retornar(1)">
+		</div>
+		<div id="n2">
+			<img class="a"  src="./calculadora animada_files/2.png"  onclick="retornar(2)">
+		</div>
+		<div id="n3">
+			<img class="a"  src="./calculadora animada_files/3.png"  onclick="retornar(3)">
+		</div>
+		<div id="n4">
+			<img class="a"  src="./calculadora animada_files/4.png"  onclick="retornar(4)">
+		</div>
+		<div id="n5">
+			<img class="a"  src="./calculadora animada_files/5.png"  onclick="retornar(5)">
+		</div>
+		<div id="n6">
+			<img class="a"  src="./calculadora animada_files/6.png"  onclick="retornar(6)">
+		</div>
+		<div id="n7">
+			<img class="a"  src="./calculadora animada_files/7.png"  onclick="retornar(7)">
+		</div>
+		<div id="n8">
+			<img class="a"  src="./calculadora animada_files/8.png"  onclick="retornar(8)">
+		</div>
+		<div id="n9">
+			<img class="a" src="./calculadora animada_files/9.png"  onclick="retornar(9)">
+		</div>
+		<div id="n0">
+			<img class="a"  src="./calculadora animada_files/0.png"  onclick="retornar(0)">
+		</div>
+		<div id="menos">
+			<img id="meno"  src="./calculadora animada_files/menos.png"  onclick="termino(&#39;-&#39;)">
+		</div>
+		<div id="mas">
+			<img id="suma"  src="./calculadora animada_files/suma.png"  onclick="termino(&#39;+&#39;)">
+		</div>
+		<div id="multi">
+			<img id="multip"  src="./calculadora animada_files/multiplicar.png"  onclick="termino(&#39;*&#39;)">
+		</div>
+		<div id="divi">
+			<img id="divic"  src="./calculadora animada_files/dividir.png"  onclick="termino(&#39;/&#39;)">
+		</div>
+		<div id="igual">
+			<img id="iguall"  src="./calculadora animada_files/igual.png"   onclick="resultados()">
+		</div>
+		<div id="borrar">
+			<img id="borrar"  src="./calculadora animada_files/borrar.png"   onclick="limpiar()">
+		</div>
+	</div>
+	</center>
+	</form>
+
+
+</body></html>
