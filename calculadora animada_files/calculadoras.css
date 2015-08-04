@@ -1,0 +1,94 @@
+img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #8181F7; 
+	border-radius: 20px 20px;
+}
+body{
+	background-color: #CED8F6;
+}
+#tema{
+	border: 2px solid #8181F7;
+	text-align: center;
+	background-color: #A9A9F5;
+	border-radius: 80px;
+	font-size: 35px;
+}
+#n1 {
+	margin-top: 15px;
+	margin-left: 50px;
+	float: left;
+}
+#n2 {
+	margin-top: 15px;
+	margin-left: 15px;
+	float:left;
+}
+#n3 {
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	
+}
+#n4 {
+	
+	margin-left: 50px;
+	float: left;
+	clear: both;
+}
+#n5 {
+	margin-left: 15px;
+	float: left;
+	
+}
+#n6 {
+	float: left;
+	margin-left: 15px;
+}
+#n7 {
+	margin-left: 50px;
+	float: left;
+	clear: both;
+}
+#n8 {
+	margin-left: 15px;
+	float: left;
+}
+#n9 {
+	float: left;
+	margin-left: 15px;
+}
+#n0 {
+	float: left;
+	clear: both;
+	margin-left: 165px;
+}
+#menos, #mas, #multi, #divi, #igual {
+	margin-left: 400px;
+	margin-top: 10px;
+}
+#panel {
+	float: left;
+	margin-left: 450px;
+
+}
+input {
+	text-align: center;
+	font-size: 35px;
+}
+#contenedor {
+	margin-left: 0px;
+	margin-top: 10px;
+	clear: both;
+	
+}
+#valores{
+	width: 350px;
+	height:50px;
+	font-size: 20px;
+	border-radius: 30px;
+}
+#meno, #suma, #multip, #divic, #iguall {
+	width: 50px;
+	height: 50px;
+}
